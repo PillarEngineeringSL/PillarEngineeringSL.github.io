@@ -700,6 +700,18 @@ section {
   line-height: 24px;
   margin-bottom: 0;
 }
+ 
+sample_test {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: auto;
+}
+
+.sample_test p {
+  /* word-break: break-all; */
+  hyphens: auto;
+}
 
 /* Call To Action Section
 --------------------------------*/
