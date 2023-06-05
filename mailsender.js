@@ -1,7 +1,3 @@
-
-
-
-
 var form = document.querySelector('form');
 form.onsubmit = function(event){
 
@@ -21,6 +17,5 @@ form.onsubmit = function(event){
     
     //Dont submit the form.
     return false; 
-
 
 }
