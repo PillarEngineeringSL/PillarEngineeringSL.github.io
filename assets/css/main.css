@@ -10,6 +10,7 @@
 # Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
 --------------------------------------------------------------*/
 /* Fonts */
+
 :root {
   --font-default: Open Sans, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   --font-primary: Roboto, sans-serif;
@@ -272,13 +273,13 @@ section {
 .header .logo h1 {
   font-size: 24px;
   font-weight: 700;
-  color: #fff;
+  color: #08d45d;
   margin-bottom: 0;
   font-family: var(--font-primary);
 }
 
 .header .logo h1 span {
-  color: var(--color-primary);
+  color: #08d45d;
 }
 
 /*--------------------------------------------------------------
@@ -765,6 +766,7 @@ section {
 .services .service-item h3 {
   color: var(--color-default);
   font-weight: 700;
+  font-family:Helvetica;
   margin: 0 0 20px 0;
   padding-bottom: 8px;
   font-size: 22px;
@@ -775,8 +777,9 @@ section {
 }
 
 .services .service-item p {
-  line-height: 24px;
-  font-size: 14px;
+  line-height: 22px;
+  font-size: 13px;
+  font-family:console;
   margin-bottom: 0;
 }
 
@@ -1182,7 +1185,15 @@ section {
 
 .alt-services .icon-box p {
   line-height: 24px;
+  font-family:Time new roman;
   font-size: 14px;
+  margin-bottom: 0;
+}
+
+.alt-services p {
+  line-height: 24px;
+  font-family:copperplate;
+  font-size: 16px;
   margin-bottom: 0;
 }
 
